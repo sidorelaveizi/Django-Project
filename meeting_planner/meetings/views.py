@@ -14,7 +14,7 @@ def rooms_list(request):
 
 
 MeetingForm = modelform_factory(Meeting, exclude=[])
-
+#ndryshime ne branch-in e ri
 def new(request):
     if request.method == "POST":
         form = MeetingForm(request.POST)
